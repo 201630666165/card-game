@@ -1,0 +1,210 @@
+@keyframes myfirst
+{
+	0%{transform:scale(1,1);}
+	49%{transform:scale(0,1);}
+	50%{transform:scale(0,1);}
+	100%{transform:scale(1,1);}
+}
+@keyframes myfirst2
+{
+	0%{transform:scale(1,1);}
+	49.9%{transform:scale(0,1);}
+	50%{transform:scale(0,1);}
+	100%{transform:scale(1,1);}
+}
+@keyframes bigger
+{
+    0%{transform: scale(1,1);}
+    100%{transform: scale(10,10);}
+}
+@keyframes bigger2
+{
+    0%{transform: scale(1,1);}
+    100%{transform: scale(10,5);}
+}
+@keyframes bigger3
+{
+    0%{transform: scale(1,1);}
+    100%{transform: scale(15,5);}
+}
+@keyframes trans
+{
+    0%{opacity: 1}
+    50%{opacity: 0}
+    100%{opacity: 1}
+}
+@keyframes trans2
+{
+    0%{opacity: 1}
+    50%{opacity: 0}
+    100%{opacity: 1}
+}
+@keyframes trans3
+{
+    0%{opacity: 1}
+    50%{opacity: 0}
+    100%{opacity: 1}
+}
+#title{
+    background-image: url(title.png);
+    background-size: 60vw 12vh;
+    left: 20vw;
+    position: absolute;
+    height: 12vh;
+    width: 60vw;
+    top:5vh;
+}
+#back{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+#fail{
+    position: absolute;
+    width: 5vw;
+    height: 2.5vh;
+    left: 47.5vw;
+    top: 36.25vh;
+    display: none;
+}
+#victory{
+    position: absolute;
+    width: 5vw;
+    height: 2.5vh;
+    left: 47.5vw;
+    top: 36.25vh;
+    display: none;
+}
+.ani {
+	animation: 
+}
+html,body{height:100%;}
+body
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;*/
+    margin:0;
+    padding:0;
+    top:0px;
+    background-color: #A9A9A9;
+}
+#cardgame
+{
+	width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+.select
+{
+    position: relative;
+    width: 23vh;
+    height: 5vh;
+    top: 15vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*font-size: 110%;*/
+    /*line-height: 250%;*/
+    background-image: url(button.png);
+    background-size: 23vh 5vh;
+    color: white;
+}
+.select2
+{
+    position: absolute;
+    background-image: url(button.png);
+    text-align: center;
+    color: white;
+    top: 60vh;
+    height: 8vh;
+    width: 30vw;
+    background-size: 30vw 8vh;
+    line-height: 8vh;
+}
+.select3
+{
+    position: absolute;
+    bottom: 0;
+    width: 15vw;
+    height: 15vw;
+    background-size: 100% 100%;
+    line-height: 4vw;
+    font-size: 3.2vw;
+    color: black;
+}
+#left
+{
+    left: 0;
+    background-image: url(bottombutton.png);
+}
+#right
+{
+    right: 0;
+    background-image: url(bottombutton2.png);
+}
+#lefttxt
+{
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+}
+#righttxt
+{
+    margin: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+#goback
+{
+    left: 13vw;
+}
+#again
+{
+    left: 56vw;
+}
+.card
+{
+	/*background-color: red;
+	text-align: center;
+    color: white;*/
+}
+#time
+{
+    position: absolute;
+    top: 0;
+    right: 1vh;
+    width: 16vh;
+    height: 8vh;
+    font-size: 6vh;
+    text-align: right;
+    color: gold;
+    z-index: 100;
+    display: none;
+}
+#over{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+#rectxt
+{
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+    font-size: 4vh;
+    top:20vh;
+    line-height: 10vh;
+    position: absolute;
+}

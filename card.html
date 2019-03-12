@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="card.css" />
+	<title>卡牌游戏</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,mimimal-ui"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" cintent="black"/>
+	<meta name="format-detection" content="telephone=no,eamil=no"/>
+	<script type="text/javascript" src="card.js"></script>
+</head>
+<body>
+<img id="back" src="back.jpg"/>
+<div id="time">
+</div>
+<audio id="evilbg">
+    <source = src="evil.wav" type="audio/wav">
+</audio>
+<audio id="card">
+    <source = src="cards.wav" type="audio/wav">
+</audio>
+<audio id="card2">
+    <source = src="cards.wav" type="audio/wav">
+</audio>
+<audio id="timer">
+    <source = src="clock.wav" type="audio/wav">
+</audio>
+<audio id="timeout">
+    <source = src="timeout.wav" type="audio/wav">
+</audio>
+<audio id="explode">
+	<source = src="explode.wav" type="audio/wav">
+</audio>
+<audio id="victorywav">
+	<source = src="victory.wav" type="audio/wav">
+</audio>
+<audio id="failwav">
+	<source = src="fail.wav" type="audio/wav">
+</audio>
+<!--<audio id="bgm">
+	<source = src="bgm.wav" type="audio/wav">
+</audio>
+<audio id="bgm2">
+	<source = src="bgm2.wav" type="audio/wav">
+</audio>-->
+	<div id="cardgame">
+	    <div id="title">
+			
+		</div>
+		<div class="select" id="easy">
+			简单
+		</div>
+		<div class="select" id="normal">
+			普通
+		</div>
+		<div class="select" id="hard">
+			困难
+		</div>
+		<div class="select" id="hero">
+			英雄
+		</div>
+		<div class="select" id="evil">
+			噩梦
+		</div>
+	</div>
+	<div class="select3" id="left" onclick="intro()">
+		<p id="lefttxt">游戏<br>说明</p>
+	</div>
+	<div class="select3" id="right" onclick="record()">
+		<p id="righttxt">最高<br>纪录</p>
+	</div>
+<div id="over">
+	<div class="select2" id="goback" onclick="goback()">
+		返回标题页
+	</div>
+	<div class="select2" id="again" onclick="again()">
+		再试一次
+	</div>
+</div>
+<img id="fail" src="fail.png"/>
+<img id="victory" src="victory.png"/>
+</body>
+</html>
